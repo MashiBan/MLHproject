@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href = "index.css" rel="stylesheet"/>
     <link href = "tailwind.css" rel="stylesheet"/>
+    <link href="./signup.css" rel="stylesheet"/>
     <title>Vite App</title>
     <style>
       body{
@@ -20,13 +21,14 @@
       <!-- <a href = "/">Sphere</a> -->
       <img  class="h-36" src="./img/logo.png">
       <ul>
-        <li>Menu</li>
-        <li>Reviews</li>
-        <li>ContactUs</li>
-        <li>Admin</li>
-        <li>Cart🛒</li>
+        <li><a href = "#">Menu</a></li>
+        <li><a href = "#">Reviews</a></li>
+        <li><a href = "#">ContactUs</a></li>
+        <li><a href = "#">Admin</a></li>
+        <li><a href = "./indexCart.html">Cart🛒</a></li>
       </ul>
     </nav>
+    
     
     
     <div class="container_div" style="position:relative;">
@@ -34,6 +36,7 @@
           <!-- <img class="some_class" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Food-and-restaurant.svg/1200px-Food-and-restaurant.svg.png"> -->
       </div>
       
+
 
       <div class="HeroText">
         <div class="Marti"><h1>MARTIAN</h1></div>
@@ -47,9 +50,132 @@
       
   </div>
 
-   
-   <!-- progress bar -->
 
+  <section class="signUp">
+    <div class="signup-box">
+      <h1 class="signup-h1">Sign Up</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form class="signupForm">
+        <label>First Name</label>
+        <input type="text" placeholder="" />
+        <label>Last Name</label>
+        <input type="text" placeholder="" />
+        <label>Email</label>
+        <input type="email" placeholder="" />
+        <label>Password</label>
+        <input type="password" placeholder="" />
+        <input type="button" value="Submit" />
+      </form>
+      <p class="para-2">
+        Already have an account? <a href="login.html">Login here</a>
+      </p> 
+    </div>
+  </section>
+   
+
+<!-- Menu -->
+<section class="MenuSection">
+  <div class="heading">
+      <h1>Order your food here!</h1>
+  </div>
+  <div class="Menucontainer">
+      <div class="box">
+          <img src="./img/ice-cream.jpg">
+          <div class="info">
+          <h2>Ice Cream</h2>
+          <p>All kinds of ice creams available!!</p>
+          <span>$2</span>
+      </div>
+         
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/imgs/burger.jpeg">
+          <h2>Burger</h2>
+          <p>All sizes of burgers available!!</p>
+          <span>$3</span>
+        
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/imgs/chole.webp">
+          <h2>Chole Bhature</h2>
+          <p>Very tasty chole bhature with cheese in it!!</p>
+          <span>$1</span>
+          
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/imgs/fries.jpeg">
+          <h2>French Fries</h2>
+          <p>Have a taste of our famous french-fries!!</p>
+          <span>$2</span>
+         
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/imgs/noodles.jpg">
+          <h2>Noodles</h2>
+          <p></p>
+          <span>$2</span>
+         
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/imgs/pan.jpg">
+          <h2>Pan Cakes</h2>
+          <p>Try our mouth watering pan cakes at least ones!!</p>
+          <span>$3</span>
+         
+          <div class="options">
+              <a href="#">view</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/imgs/pizza.webp">
+          <h2>Pizza</h2>
+          <p>Customize your pizza according to your needs!!</p>
+          <span>$2.5</span>
+          
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="img/imgs/sandwich.jpeg">
+          <h2>Sandwich</h2>
+          <p>All varieties of sandwiches available!</p>
+          <span>$1</span>
+         
+          <div class="options">
+              <a href="#">View</a>
+              <a href="#">Add to Cart</a>
+          </div>
+      </div>
+  </div>
+  </section>
+
+
+
+   <!-- progress bar -->
+<section>
    <div class="container">
 
     <img  class="alien1" src="./img/vecteezy_alien-wearing-bucket-hat-vector_.jpg" style="height: 150px;"/>
@@ -112,9 +238,9 @@
 
     </div>
 </div>
-
+</section>
 <!-- footer -->
-
+<section>
 <footer>
     <div class="row">
         <div class="col">
@@ -142,7 +268,7 @@
         <div class="col">
             <h3>Shubscribe to our newslater <div class="underline"><span></span></div>
             </h3>
-            <form>
+            <form class="footerForm">
                 <i class="fa-regular fa-envelope"></i>
                 <input type="email" placeholder="enter your e-mail Id" required>
                 <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
@@ -158,6 +284,7 @@
     <hr>
     <p class="copyright">copyright @ 2023 - All Rights Reserved</p>
 </footer>
+</section>
 
 <script src="index.js"></script>
 
