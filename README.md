@@ -1,1 +1,3 @@
 # MLHproject
+Martian Feast
+Our project is made using HTML, CSS, JS , Tailwindcss , Django and Python, hence It is a website for restaraunt  menu to produce more profits as it would reduce the need or waiters  and promote self services...this would also help in better management and analysis of proftis  and records of losses. So when you reach a table you can scan a qr code and your table number along with your order would be added to admins or cooks user interface and when ever the order is ready you will receive a sms notifications which would be provided through api and you can also track the status whether the cook has acccepted your order.
